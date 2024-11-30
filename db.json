@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "johndoe",
+      "password": "password123",
+      "role": "customer"
+    },
+    {
+      "id": 2,
+      "username": "janedoe",
+      "password": "password456",
+      "role": "customer"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "1234567890"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "0987654321"
+    }
+  ],
+  "packages": [
+    {
+      "id": 1,
+      "name": "Nonton Hemat 1 GB + 30 Hari",
+      "data": "1GB",
+      "duration": "30 Hari",
+      "price": 5000,
+      "category": "Penawaran Terbaik",
+      "description": "Dapatkan Paket Nonton Hemat 1 GB + 30 Hari, nikmati streaming lebih hemat dan puas!"
+    },
+    {
+      "id": 2,
+      "name": "Promo Bulanan 4.5 GB + 30 Hari",
+      "data": "4.5GB",
+      "duration": "30 Hari",
+      "price": 25000,
+      "category": "Hot Promo",
+      "description": "Pakai Paket Promo Bulanan 4.5 GB + 30 Hari, nikmati lebih banyak data untuk aktivitas kamu sepanjang bulan!"
+    },
+    {
+      "id": 3,
+      "name": "Main Game Seru 10 GB + 28 Hari",
+      "data": "10GB",
+      "duration": "28 Hari",
+      "price": 54000,
+      "category": "Penawaran Terbaik",
+      "description": "Main game seru tanpa batas dengan Paket 10 GB + 28 Hari, siap menemani petualangan gamemu!"
+    },
+    {
+      "id": 4,
+      "name": "Combo SAKTI MAX 7 GB + 30 Hari",
+      "data": "7GB",
+      "duration": "30 Hari",
+      "price": 27000,
+      "category": "Paket Sakti",
+      "description": "Nikmati kehebatan Combo SAKTI MAX 7 GB + 30 Hari, paket lengkap untuk internetan lebih lama dan lebih maksimal!"
+    },
+    {
+      "id": 5,
+      "name": "Nonton Hemat 3 GB + 30 Hari",
+      "data": "3GB",
+      "duration": "30 Hari",
+      "price": 15000,
+      "category": "Penawaran Terbaik",
+      "description": "Dapatkan Paket Nonton Hemat 3 GB + 30 Hari, nikmati streaming lebih hemat dan puas!"
+    },
+    {
+      "id": 6,
+      "name": "Nonton Hemat 3 GB + 30 Hari",
+      "data": "3GB",
+      "duration": "30 Hari",
+      "price": 17000,
+      "category": "Penawaran Terbaik",
+      "description": "Dapatkan Paket Nonton Hemat 3 GB + 30 Hari, nikmati streaming lebih hemat dan puas!"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "packageId": 2,
+      "date": "2024-11-30T10:00:00Z",
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "customerId": 2,
+      "packageId": 1,
+      "date": "2024-11-29T15:30:00Z",
+      "status": "pending"
+    }
+  ]
+}
