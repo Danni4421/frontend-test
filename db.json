@@ -27,6 +27,13 @@
       "password": "4jiHamdani_.",
       "role": "customer",
       "id": 4
+    },
+    {
+      "username": "azkaanasiyya",
+      "email": "azkaanasiyya@gmail.com",
+      "password": "123456",
+      "role": "customer",
+      "id": 5
     }
   ],
   "customers": [
@@ -53,6 +60,12 @@
       "name": "Aji Hamdani Ahmad",
       "phone": "081325205723",
       "id": 4
+    },
+    {
+      "userId": 5,
+      "name": "Azka Anasiyya",
+      "phone": "089688323400",
+      "id": 5
     }
   ],
   "packages": [
