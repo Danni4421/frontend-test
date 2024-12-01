@@ -3,28 +3,56 @@
     {
       "id": 1,
       "username": "johndoe",
+      "email": "johndoe@example.com",
       "password": "password123",
       "role": "customer"
     },
     {
       "id": 2,
       "username": "janedoe",
+      "email": "janesmith@example.com",
       "password": "password456",
       "role": "customer"
+    },
+    {
+      "username": "test",
+      "email": "test@mail.com",
+      "password": "test1234",
+      "role": "customer",
+      "id": 3
+    },
+    {
+      "username": "ajihamdani",
+      "email": "ajhmdni02@gmail.com",
+      "password": "4jiHamdani_.",
+      "role": "customer",
+      "id": 4
     }
   ],
   "customers": [
     {
       "id": 1,
+      "userId": 1,
       "name": "John Doe",
-      "email": "johndoe@example.com",
       "phone": "1234567890"
     },
     {
       "id": 2,
+      "userId": 2,
       "name": "Jane Smith",
-      "email": "janesmith@example.com",
       "phone": "0987654321"
+    },
+    {
+      "userId": 3,
+      "name": "test",
+      "phone": "081234567890",
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "name": "Aji Hamdani Ahmad",
+      "phone": "081325205723",
+      "id": 4
     }
   ],
   "packages": [
@@ -85,18 +113,28 @@
   ],
   "transactions": [
     {
-      "id": 1,
       "customerId": 1,
-      "packageId": 2,
-      "date": "2024-11-30T10:00:00Z",
-      "status": "completed"
+      "packageId": 4,
+      "date": "2024-12-01T04:11:35.445Z",
+      "endDate": "2024-12-31T04:11:35.445Z",
+      "status": "completed",
+      "id": 1
     },
     {
-      "id": 2,
-      "customerId": 2,
-      "packageId": 1,
-      "date": "2024-11-29T15:30:00Z",
-      "status": "pending"
+      "customerId": 1,
+      "packageId": 6,
+      "date": "2024-12-01T05:14:07.264Z",
+      "endDate": "2024-12-31T05:14:07.264Z",
+      "status": "completed",
+      "id": 2
+    },
+    {
+      "customerId": 1,
+      "packageId": 2,
+      "date": "2024-12-01T05:15:12.350Z",
+      "endDate": "2024-12-31T05:15:12.350Z",
+      "status": "completed",
+      "id": 3
     }
   ]
 }
